@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+.sect1{
+background: url(./assets/back.jpg) no-repeat ;
+background-size: cover;
+background-repeat: no-repeat;
+padding: 150px 0 100px;
+height: 100%;
+}
+/* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+font-family: 'Numans', sans-serif;
+height: 100%;
+}
+

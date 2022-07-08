@@ -1,0 +1,56 @@
+<section class="sect1">
+<div class="container-fluid">
+<div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+ 
+      <div class="login-wrap">
+        <div class="login-html">
+            <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
+            <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+            <div class="login-form">
+                <div class="sign-in-htm">
+                    <div class="group">
+                        <label for="user" class="label">Account Number</label>
+                        <input id="user" name="acno" [(ngModel)]="acno" type="text" class="input">
+                    </div>
+                    <div class="group">
+                        <label for="pass" class="label">Password</label>
+                        <input id="pass" type="password" name="pswd" [(ngModel)]="pswd" class="input" >
+                    </div>
+          
+                    <div class="group">
+                        <input value="Login" (click)="login()" type="submit" class="button" value="Sign In">
+                    </div>
+                   
+                </div>
+                <div class="sign-up-htm">
+                    <div class="group">
+                        <label for="user" class="label">Username</label>
+                        <input id="user" name="uname" [(ngModel)]="uname" type="text" class="input">
+                    </div>
+                    <div class="group">
+                        <label for="user" class="label">Account Number</label>
+                        <input id="user" name="acno" [(ngModel)]="acno" type="text" class="input">
+                    </div>
+                    <div class="group">
+                        <label for="pass" class="label">Password</label>
+                        <input id="pass" type="password" name="pswd" [(ngModel)]="pswd" class="input" >
+                    </div>
+                    
+                    
+                    <div class="group">
+                        <input value="Register" (click)="register()" type="submit" class="button" value="Sign Up">
+                    </div>
+                    <div class="foot-lnk">
+                        <a href=""><label for="tab-1">Already Member?</label></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="col-sm-4"></div>
+</div>
+</div>
+</section>
